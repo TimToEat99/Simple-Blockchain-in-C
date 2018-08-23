@@ -49,10 +49,6 @@ cluster_t* cluster_new(const char* addr);
 void cluster_free(cluster_t* c);
 
 
-// =======================================================================
-// Declare any other functions you need in order to implement deanon below
-// =======================================================================
-
 
 
 #endif
