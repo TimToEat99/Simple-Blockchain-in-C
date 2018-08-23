@@ -22,6 +22,7 @@ int get_balance(const char* addr, double* out_bal, addr_bal_t* ab);
 // Set the balance associated with address addr to bal.
 void set_balance(const char* addr, double bal, addr_bal_t* ab);
 
+// Print the balance of a specific address
 void addr_bal_print(addr_bal_t* ab);
 
 

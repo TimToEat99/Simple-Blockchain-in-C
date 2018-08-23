@@ -43,7 +43,6 @@ int get_balance(const char* addr, double* out_bal, addr_bal_t* ab)
         *out_bal = 0;
         return 0;
     }
-
     *out_bal = d->v;
     return 1;
 }
